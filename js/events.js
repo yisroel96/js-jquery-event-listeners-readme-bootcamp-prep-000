@@ -12,7 +12,7 @@ function frameIt() {
  })
 }
 
-function pressIt() {
+function submitIt() {
   $('#typing').on('keydown', function(e) {
     alert('Your form is going to be submitted now.')
   })
