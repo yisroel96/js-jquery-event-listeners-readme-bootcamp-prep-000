@@ -12,9 +12,11 @@ function frameIt() {
  })
 }
 
-function submitIt() {
+function pressIt() {
   $('#typing').on('keydown', function(e) {
-    alert('Your form is going to be submitted now.')
+    if (e.which === 71) {
+      alert("You pressed 'g'!")
+    }
   })
 }
 
