@@ -4,8 +4,6 @@ function getIt() {
     alert('hey!')
 
   })
-
-
 }
 
 function frameIt() {
